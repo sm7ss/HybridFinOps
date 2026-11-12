@@ -1,0 +1,18 @@
+[project]
+name = "hybridops"
+version = "0.1.0"
+description = "A local-first data pipeline and AWS cost-monitoring bot inspired by Pablo the Cactus. Prevents cloud billing surprises by automating server shutdowns. 🐥🌵"
+authors = [
+    {name = "Arbolitos Mi Casita",email = "ns.7m.sw@gmail.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic (>=2.14.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
