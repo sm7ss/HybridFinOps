@@ -1,0 +1,8 @@
+budget: # USD
+  limit_budget: 1.0
+  minimum_budget: 1.0
+
+times: # Minutes
+  time_limit_of_inactive_server: 1
+  minimum_time_to_postpone: 1
+  maximum_time_to_postpone: 1
